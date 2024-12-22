@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif, system-ui;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+  margin: 65px auto;
+  padding: 115px 50px;
+  background-color: #1f2937;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 3px #555;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+span {
+  color: #4adf86;
+}
+
+p {
+  margin-bottom: 40px;
+  font: 20px;
+}
+
+button {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #10b981;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  margin-bottom: 30px;
+  border: 1px solid #2f3e53;
+}
+
+.password-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.password-box {
+  width: 200px;
+  height: 40px;
+  background-color: #273549;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #55f991;
+  user-select: all;
+  cursor: pointer;
+}
+
+.slider {
+  appearance: none;
+  width: 150px;
+  height: 10px;
+  background-color: #10b981;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#rangeValue {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  margin-left: 8px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #10b981;
+  color: white;
+}
